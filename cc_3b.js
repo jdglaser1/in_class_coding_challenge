@@ -30,4 +30,6 @@ let inventory = [
 }
 
 ]
-console.log(inventory)
+
+inventory.forEach(obj => console.log(` SKU: ${obj.sku} | Name: ${obj.name} | Price: ${obj.price} | Stock: ${obj.stock}`))
+
