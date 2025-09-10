@@ -8,7 +8,7 @@ let inventory = [
 
 },
 {
-    sku: "SKU- 1002",
+    sku: "SKU-1002",
     name: "iPod",
     price: "299.00",
     stock: "15"
@@ -31,5 +31,17 @@ let inventory = [
 
 ]
 
-inventory.forEach(obj => console.log(` SKU: ${obj.sku} | Name: ${obj.name} | Price: ${obj.price} | Stock: ${obj.stock}`))
+//second part of step 2
+inventory.forEach(obj => console.log(` SKU: ${obj.sku} | Name: ${obj.name} | Price: $${obj.price} | Stock: ${obj.stock}`))
 
+//step 3
+//Adding a product using .push()
+
+inventory.push(
+{
+    sku: "SKU-1005",
+    name: "Apple Pencil",
+    price: "99.00",
+    stock: "55"
+}
+)
