@@ -45,3 +45,8 @@ inventory.push(
     stock: "55"
 }
 )
+
+//removing the last item in the list using pop(). (It removed the apple pencil I added in the last step)
+inventory.pop()
+
+//running a sale on the airpods
